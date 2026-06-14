@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+    <type name="M4A1">
+        <nominal>8</nominal><lifetime>14400</lifetime><restock>0</restock>
+        <min>3</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/><usage name="Military"/><value name="Tier3"/>
+    </type>
+    <type name="AKM">
+        <nominal>10</nominal><lifetime>14400</lifetime><restock>0</restock>
+        <min>4</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/><usage name="Military"/><value name="Tier3"/>
+    </type>
+    <type name="Mosin9130">
+        <nominal>12</nominal><lifetime>14400</lifetime><restock>0</restock>
+        <min>6</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/><usage name="Hunting"/><usage name="Village"/><value name="Tier1"/><value name="Tier2"/>
+    </type>
+    <type name="Ammo_556x45">
+        <nominal>40</nominal><lifetime>3600</lifetime><restock>0</restock>
+        <min>20</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/><usage name="Military"/><value name="Tier2"/>
+    </type>
+    <type name="Mag_STANAG_30Rnd">
+        <nominal>25</nominal><lifetime>3600</lifetime><restock>0</restock>
+        <min>12</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/><usage name="Military"/><value name="Tier2"/>
+    </type>
+    <type name="Morphine">
+        <nominal>15</nominal><lifetime>3600</lifetime><restock>0</restock>
+        <min>7</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/><usage name="Medic"/><value name="Tier2"/>
+    </type>
+    <type name="BandageDressing">
+        <nominal>30</nominal><lifetime>3600</lifetime><restock>0</restock>
+        <min>15</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/><usage name="Medic"/><usage name="Town"/><value name="Tier1"/>
+    </type>
+    <type name="TetracyclineAntibiotics">
+        <nominal>8</nominal><lifetime>3600</lifetime><restock>0</restock>
+        <min>3</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/><usage name="Medic"/><value name="Tier2"/>
+    </type>
+    <type name="Nail">
+        <nominal>35</nominal><lifetime>3600</lifetime><restock>0</restock>
+        <min>18</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/><usage name="Industrial"/><value name="Tier1"/>
+    </type>
+    <type name="WoodenPlank">
+        <nominal>20</nominal><lifetime>3600</lifetime><restock>0</restock>
+        <min>10</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/><usage name="Industrial"/><value name="Tier1"/>
+    </type>
+    <type name="TacticalBaconCan">
+        <nominal>40</nominal><lifetime>7200</lifetime><restock>0</restock>
+        <min>20</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/><usage name="Town"/><value name="Tier1"/>
+    </type>
+    <type name="Apple">
+        <nominal>50</nominal><lifetime>3600</lifetime><restock>0</restock>
+        <min>25</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/><usage name="Village"/><usage name="Farm"/><value name="Tier1"/>
+    </type>
+    <type name="DryBag_Orange">
+        <nominal>15</nominal><lifetime>10800</lifetime><restock>0</restock>
+        <min>7</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/><usage name="Coast"/><value name="Tier2"/>
+    </type>
+    <type name="Barrel_Blue">
+        <nominal>6</nominal><lifetime>14400</lifetime><restock>0</restock>
+        <min>2</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/><usage name="Industrial"/><value name="Tier2"/>
+    </type>
+    <type name="TShirt_Black">
+        <nominal>30</nominal><lifetime>10800</lifetime><restock>0</restock>
+        <min>15</min><quantmin>-1</quantmin><quantmax>-1</quantmax><cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/><usage name="Town"/><value name="Tier1"/>
+    </type>
+</types>

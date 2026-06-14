@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<spawnabletypes>
+    <type name="M4A1">
+        <attachments chance="0.70"><item name="Mag_STANAG_30Rnd" chance="1.00"/></attachments>
+    </type>
+    <type name="AKM">
+        <attachments chance="0.70"><item name="Mag_AKM_30Rnd" chance="1.00"/></attachments>
+    </type>
+    <type name="DryBag_Orange">
+        <cargo chance="0.30"><item name="Apple" chance="1.00"/></cargo>
+    </type>
+</spawnabletypes>

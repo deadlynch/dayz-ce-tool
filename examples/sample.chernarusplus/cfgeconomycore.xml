@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<economycore>
+    <classes>
+        <rootclass name="DZ_LightAI" act="character"/>
+    </classes>
+    <defaults>
+        <default name="dyn_radius" value="30"/>
+    </defaults>
+    <ce folder="db">
+        <file name="types.xml" type="types"/>
+    </ce>
+</economycore>

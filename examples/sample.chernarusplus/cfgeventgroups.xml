@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eventgroupdef>
+    <group name="ContaminatedConvoy">
+        <child type="Land_Wreck_Ural" deloot="0" lootmax="5" lootmin="2" x="0" z="0" a="0" y="0"/>
+        <child type="Land_Wreck_UAZ" deloot="0" lootmax="3" lootmin="1" x="12.5" z="4.2" a="90" y="0"/>
+    </group>
+</eventgroupdef>

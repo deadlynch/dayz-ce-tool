@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dzce"
+version = "0.1.0"
+description = "A terminal toolkit for configuring and balancing DayZ Central Economy XML files."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Edson Batista" }]
+keywords = ["dayz", "central-economy", "server", "loot", "cli"]
+dependencies = [
+    "lxml>=5.0",
+    "typer>=0.12",
+    "rich>=13.0",
+    "questionary>=2.0",
+]
+
+[project.scripts]
+dzce = "dzce.cli:run"
+
+[project.urls]
+Homepage = "https://github.com/deadlynch/dayz-ce-tool"
+Issues = "https://github.com/deadlynch/dayz-ce-tool/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/dzce"]

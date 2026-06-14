@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user>
+    <usagevalues>
+        <usage name="HighLoot"><usage name="Military"/><usage name="Police"/></usage>
+    </usagevalues>
+    <valuevalues>
+        <value name="TierEvent"><value name="Tier4"/></value>
+    </valuevalues>
+</user>
